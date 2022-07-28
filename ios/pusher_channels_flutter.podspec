@@ -3,7 +3,7 @@
 # Run `pod lib lint pusher_channels.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'pusher_channels_flutter'
+  s.name             = 'sendrx_flutter_pusher'
   s.version          = '0.0.1'
   s.summary          = 'Pusher Channels Flutter integration.'
   s.description      = <<-DESC

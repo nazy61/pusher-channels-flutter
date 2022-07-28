@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:pusher_channels_flutter/pusher_channels_flutter.dart';
+// import 'package:sendrx_flutter_pusher/sendrx_flutter_pusher.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('pusher_channels_flutter');
+  const MethodChannel channel = MethodChannel('sendrx_flutter_pusher');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 

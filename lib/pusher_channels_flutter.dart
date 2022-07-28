@@ -64,7 +64,7 @@ class PusherChannel {
 class PusherChannelsFlutter {
   static PusherChannelsFlutter? _instance;
 
-  MethodChannel methodChannel = const MethodChannel('pusher_channels_flutter');
+  MethodChannel methodChannel = const MethodChannel('sendrx_flutter_pusher');
   Map<String, PusherChannel> channels = {};
   String connectionState = 'DISCONNECTED';
   Function(String currentState, String previousState)? onConnectionStateChange;

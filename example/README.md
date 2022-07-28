@@ -1,12 +1,11 @@
-# pusher_channels_flutter_example
+# sendrx_flutter_pusher_example
 
-Demonstrates how to use the pusher_channels_flutter plugin
+Demonstrates how to use the sendrx_flutter_pusher plugin
 at https://github.com/pusher/pusher-channels-flutter
 
 ## Getting Started
 
 This is a minimal Flutter example project for [Pusher Channels](https://pusher.com/channels). Please note that it is not production ready.
-
 
 For tutorials and more in-depth information about Pusher Channels, visit our [official docs](https://pusher.com/docs/channels).
 

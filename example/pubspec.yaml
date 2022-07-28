@@ -1,9 +1,9 @@
-name: pusher_channels_flutter_example
+name: sendrx_flutter_pusher_example
 description: Demonstrates how to use the pusher_channels plugin.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -19,7 +19,7 @@ dependencies:
     sdk: flutter
   shared_preferences: "2.0.8"
 
-  pusher_channels_flutter:
+  sendrx_flutter_pusher:
     # When depending on this package from a real application you should use:
     #   pusher_channels: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints
@@ -47,7 +47,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

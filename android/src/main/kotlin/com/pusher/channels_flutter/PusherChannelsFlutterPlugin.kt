@@ -35,7 +35,7 @@ class PusherChannelsFlutterPlugin : FlutterPlugin, MethodCallHandler, ActivityAw
         methodChannel =
             MethodChannel(
                 flutterPluginBinding.binaryMessenger,
-                "pusher_channels_flutter"
+                "sendrx_flutter_pusher"
             )
         methodChannel.setMethodCallHandler(this)
     }

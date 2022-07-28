@@ -1,6 +1,6 @@
-name: pusher_channels_flutter
+name: sendrx_flutter_pusher
 description: An update on pusher_channels_flutter
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/nazy61/pusher-channels-flutter
 repository: https://github.com/nazy61/pusher-channels-flutter
 
@@ -34,12 +34,12 @@ flutter:
       android:
         package: com.pusher.channels_flutter
         pluginClass: PusherChannelsFlutterPlugin
-        fileName: pusher_channels_flutter.dart
+        fileName: sendrx_flutter_pusher.dart
       ios:
         pluginClass: PusherChannelsFlutterPlugin
       web:
         pluginClass: PusherChannelsFlutterWeb
-        fileName: pusher_channels_flutter_web.dart
+        fileName: sendrx_flutter_pusher_web.dart
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
